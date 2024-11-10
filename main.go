@@ -64,7 +64,7 @@ func init() { //Функция init запускается раньше функ
 	// Uncomment and update token value to set environment variable for Telegram Bot Token given by BotFather.
 	// Delete this line after setting the env var. Keep the token out of the public domain!
 	//_ = os.Setenv(TOKEN_NAME_IN_OS, "INSERT_YOUR_TOKEN")
-	_ = os.Setenv(TOKEN_NAME_IN_OS, "7851188573:AAGJzoAbxwNXbYhtM47O0wYn0h9CIjXpo_4")
+	_ = os.Setenv(TOKEN_NAME_IN_OS, "Your Token ID")
 
 	if gToken = os.Getenv(TOKEN_NAME_IN_OS); gToken == "" {
 		panic(fmt.Errorf(`failed to load environment variable "%s"`, TOKEN_NAME_IN_OS))
